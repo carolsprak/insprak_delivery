@@ -4,7 +4,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
   const username = document.getElementById('username').value;
   const password = document.getElementById('password').value;
 
-  fetch('http://localhost:4501/login', {
+  fetch('https://insprak-delivery-api-0729615f05f3.herokuapp.com/login', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
